@@ -1,0 +1,49 @@
+
+h1,h2{
+    text-align: center;
+    margin: 0 auto;
+}
+div{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.resposta{
+    flex-direction: column;
+}
+.revresposta{
+    flex-direction: column-reverse;
+
+}
+
+button{
+width: 300px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding:calc(width - 10%);
+border: 1px solid ;
+margin: 10px 0;
+font-weight: bolder;
+}
+
+
+.verde{
+    color: #42ED92;
+    border-color: #42ED92;
+    
+}
+
+.verde:active{
+    background-color: #A5F0AD;
+}
+.vermelho{
+    color:#E04A4A;
+    border-color: #E04A4A;
+    
+}
+.vermelho:active{
+    background-color: #E08F8F;
+}
