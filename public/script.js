@@ -1,5 +1,4 @@
 var contador = 0;
-const frases = [""]
 function random(min, max){
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -74,7 +73,7 @@ function btnsim(){
 console.log('apertou no sim');
 document.getElementById('bla').innerHTML = "S2 | prata fina ?"
 let reg = contador.toString();
-const url = 'https://127.0.0.1:3000/reg/' + reg;
+const url = ' https://f90f-187-121-163-60.ngrok-free.app/reg/' + reg;
 
 var xhttp = new XMLHttpRequest();
 xhttp.open("GET", url, false);
